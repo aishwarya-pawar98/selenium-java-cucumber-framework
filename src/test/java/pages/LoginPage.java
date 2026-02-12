@@ -8,12 +8,12 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
 
 
-WebDriver driver;
+private WebDriver driver;
 
 
-By username = By.id("user-name");
-By password = By.id("password");
-By loginBtn = By.id("login-button");
+private By username = By.id("user-name");
+private By password = By.id("password");
+private By loginBtn = By.id("login-button");
 
 
 public LoginPage(WebDriver driver) {
@@ -21,8 +21,8 @@ this.driver = driver;
 }
 
 
-public void openSite() {
-driver.get("https://www.saucedemo.com/");
+public void openApplication(String url) {
+driver.get(url);
 }
 
 

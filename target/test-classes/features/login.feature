@@ -1,7 +1,5 @@
-Feature: Login Test
+Feature: Login functionality
 
 
 Scenario: Successful login
-Given User is on login page
-When User enters valid credentials
-Then User should be logged in
+When User logs in with valid credentials

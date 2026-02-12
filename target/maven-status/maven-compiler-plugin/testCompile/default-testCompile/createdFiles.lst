@@ -1,4 +1,8 @@
-runners\TestRunner.class
 stepdefinitions\LoginSteps.class
 pages\LoginPage.class
-utils\BaseTest.class
+stepdefinitions\Hooks.class
+utils\DriverFactory.class
+runners\TestRunner.class
+utils\ConfigReader.class
+utils\ScreenshotUtil.class
+utils\ExtentManager.class
